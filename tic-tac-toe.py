@@ -51,7 +51,7 @@ def main():
 
         move = input()        
 
-        if theBoard[move] == '2' or '3' or '4' or '5' or '6' or '7' or '8' or '9' :
+        if theBoard[move] in ('1', '2' , '3' , '4' , '5' , '6' , '7' , '8' ,'9') :
             theBoard[move] = turn
             count += 1
         else:
